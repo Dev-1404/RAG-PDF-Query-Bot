@@ -4,14 +4,14 @@ Ask Questions to Your PDFs using AI!
 
 This project implements a **R**etrieval-**A**ugmented **G**eneration (RAG) system using LangChain. It allows you to upload a PDF document and then ask questions about its content. Instead of using generic knowledge, the AI uses the specific information inside your document to generate accurate answers!
 
-## ✨ Key Features
+## Key Features
 
 * **PDF Ingestion:** Easily load and process text from any PDF document.
 * **Intelligent Q&A:** Ask complex questions and get precise answers based *only* on the content of the PDF.
 * **RAG Architecture:** Utilizes the powerful RAG framework for grounded, factual responses.
 * **Modular Code:** Built using the popular **LangChain** framework, making it easy to understand and expand.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 | :--- | :--- |
@@ -21,7 +21,7 @@ This project implements a **R**etrieval-**A**ugmented **G**eneration (RAG) syste
 | **FAISS/ChromaDB** | Used as a vector store to efficiently index and search the PDF content. |
 | **Streamlit/Jupyter** | (Implied by the repo content) Used for the user interface/interactive development environment. |
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 Follow these steps to get your RAG Bot running locally.
 
@@ -49,8 +49,11 @@ venv\Scripts\activate
 
 ### 3\. Install Dependencies
 
+Run this single command in your terminal or Jupyter/Colab notebook cell:
 
-***If you don't have a `requirements.txt`, you will need to list the libraries used in your `RAG_LangChain.ipynb` file here for users to install\!***
+```
+pip install langchain faiss-cpu pdfplumber langchain-google-genai tiktoken langchain-community
+```
 
 ### 4\. Configure Your API Key
 
@@ -65,29 +68,29 @@ OPENAI_API_KEY="your_secret_api_key_here"
 
 **Note:** Never commit your actual API keys directly to GitHub\!
 
-## 💻 Usage
+## Usage
 
 To run the RAG-PDF-Query-Bot, you will typically execute the main Python file or run the Jupyter Notebook.
 
 ### Running the Jupyter Notebook
 
 1.  Start the Jupyter server:
-2.  
+```  
     jupyter notebook
+```
+2.  Open the file `RAG_LangChain.ipynb` in your browser.
+3.  Execute the cells step-by-step to load a PDF, process it, and run the query chain.
 
-3.  Open the file `RAG_LangChain.ipynb` in your browser.
-4.  Execute the cells step-by-step to load a PDF, process it, and run the query chain.
 
 
-
-## 🤝 Contribution
+## Contribution
 
 Feel free to **fork** this repository, open issues, and submit pull requests. Any suggestions for improvement are welcome\!
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** .
 
-## 📧 Contact
+## Contact
 
 Created by **Dev-1404** - feel free to reach out\!
