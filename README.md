@@ -1,4 +1,4 @@
-# 🤖 RAG-PDF-Query-Bot
+# RAG-PDF-Query-Bot
 
 Ask Questions to Your PDFs using AI!
 
@@ -80,8 +80,6 @@ To run the RAG-PDF-Query-Bot, you will typically execute the main Python file or
 ```
 2.  Open the file `RAG_LangChain.ipynb` in your browser.
 3.  Execute the cells step-by-step to load a PDF, process it, and run the query chain.
-
-
 
 ## Contribution
 
